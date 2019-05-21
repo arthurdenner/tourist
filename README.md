@@ -148,7 +148,7 @@ Continuation looks for the presence of trace and top-level screenshot files in t
 
 ## Analysis Only
 
-Lets say you've previously cralwed a large set of urls and only want to re-run the analysis (rather than, e.g., change the form-factor against which you are computing WebBS or taking new screenshots). Use `--no-crawl` to trigger this mode. Note that you'll still need to provide the URL(s) to analyse:
+Let's say you've previously crawled a large set of urls and only want to re-run the analysis (rather than, e.g., change the form-factor against which you are computing WebBS or taking new screenshots). Use `--no-crawl` to trigger this mode. Note that you'll still need to provide the URL(s) to analyse:
 
 ```
 slightlyoff:/projects/tourist > time (node tourist.js --no-crawl --urls-file=./urls.json)
